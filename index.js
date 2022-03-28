@@ -1,3 +1,3 @@
-const { vi } = require("vi")
+const { vi } = require("vite")
 
 HTMLCanvasElement.prototype.getContext = vi.fn();
